@@ -19,7 +19,7 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 5. Blue & Silver credit card are contributing to 93% of overall transactions
 6. TX, NY & CA is contributing to 68%
 7. Overall Activation rate is 57.5%
-8. Overall Delinquent rate is 6.06%**
+8. Overall Delinquent rate is 6.06%
 
 ## DAX Queries
 1. AgeGroup = SWITCH(  TRUE(), 'public cust_detail'[customer_age] < 30, "20-30", 'public cust_detail'[customer_age] >= 30 && 'public cust_detail'[customer_age] < 40, "30-40",  'public cust_detail'[customer_age] >= 40 && 'public cust_detail'[customer_age] < 50, "40-50",  'public cust_detail'[customer_age] >= 50 && 'public cust_detail'[customer_age] < 60, "50-60",  'public cust_detail'[customer_age] >= 60, "60+", "unknown" )
